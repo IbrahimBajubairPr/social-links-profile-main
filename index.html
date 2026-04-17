@@ -74,9 +74,12 @@
       border-radius:10px;
       transition: all 0.2s ease-in-out;
     }
- .container  a:hover{
+ .container  a:hover,
+ .container a:focus{
       color: #000;
-      background-color:hsl(75, 94%, 57%); ;
+      background-color:hsl(75, 94%, 57%);
+      outline-offset: 2px ;
+      outline:2px solid #fff;
     }
 footer{
   width: 100%;
